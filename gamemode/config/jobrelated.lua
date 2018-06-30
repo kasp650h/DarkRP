@@ -122,7 +122,7 @@ TEAM_GUN = DarkRP.createJob("Gun Dealer", {
 
 TEAM_MEDIC = DarkRP.createJob("Medic", {
     color = Color(47, 79, 79, 255),
-    model = "models/player/kleiner.mdl",
+    model = "models/player/Group03m/female_01.mdl",
     description = [[With your medical knowledge you work to restore players to full health.
         Without a medic, people cannot be healed.
         Left click with the Medical Kit to heal other players.
@@ -302,3 +302,12 @@ DarkRP.createCategory{
     canSee = fp{fn.Id, true},
     sortOrder = 255,
 }
+
+DarkRP.CreateCategory{
+    name = "Admin on Duty
+    categorises = "Admin on Duty"
+    startExpanded = true
+    color = Color(1, 103, 0, 255),
+    canSee = fp{fn.Id, true},
+    sortOrder 104
+    }
